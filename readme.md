@@ -1,7 +1,7 @@
 <h1>GetMeUsedCarParts Wrecker Location API for Australia, New Zealand, USA and Canada</h1>
 <h2>Accessing a list of wreckers near a given location</h2>
 <p>Using your preferred programming language an API call can be made to the URL: <a href="https://getmeusedcarparts.com/d?l=lat,lon">https://getmeusedcarparts.com/d?l=lat,lon</a> 
-The parameter that needs to be supplied is <b>l</b>, i.e. location</a> The location (<b>l<b>) is in the format:
+The parameter that needs to be supplied is <b>l</b>, i.e. location</a> The location (<b>l</b>) is in the format:
 <pre>l=latitude,longitude</pre>
 </p>
 
@@ -76,7 +76,11 @@ curl_close($curl);
 ]
 </pre>
 
-<h3>What are limitations to using Car Wrecked Data API?</h3>
+<h3>What are limitations to using Car Wreckers Data API?</h3>
 
 <p>The API only returns results for coordinates that are inside Australia, New Zealand, USA and Canada. The results are limited to the five closest wreckers sort in
 the order of closest first to the given lat and lon coordinates.</p>
+
+<h3>Usage requirements</h3>
+
+<p>If using the API in your website/app, please provide a link to <a href="https://getmeusedcarparts.com/">Wreckers/Auto Dismantlers Near You API</a></p>
