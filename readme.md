@@ -1,7 +1,7 @@
 <h1>GetMeUsedCarParts Wrecker Location API for Australia, New Zealand, USA and Canada</h1>
 <h2>Accessing a list of wreckers near a given location</h2>
 <p>Using your preferred programming language an API call can be made to the URL: <a href="https://getmeusedcarparts.com/d?l=lat,lon">https://getmeusedcarparts.com/d?l=lat,lon</a> 
-The parameter that needs to be supplied is <b>l</b>, i.e. location</a> The location (<b>l</b>) is in the format:
+The parameter that needs to be supplied is <b>l</b>, i.e. location. The location (<b>l</b>) is in the format:
 <pre>l=latitude,longitude</pre>
 </p>
 
