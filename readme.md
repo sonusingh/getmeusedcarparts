@@ -75,3 +75,8 @@ curl_close($curl);
   }
 ]
 </pre>
+
+<h3>What are limitations to using Car Wrecked Data API?</h3>
+
+<p>The API only returns results for coordinates that are inside Australia, New Zealand, USA and Canada. The results are limited to the five closest wreckers sort in
+the order of closest first to the given lat and lon coordinates.</p>
